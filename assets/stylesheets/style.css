@@ -21,3 +21,7 @@
   font-size: 87.5%;
   scroll-behavior: smooth;
 }
+
+.body {
+  background-color: #f4f5f6;
+}
