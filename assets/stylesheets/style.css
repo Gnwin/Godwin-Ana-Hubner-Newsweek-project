@@ -1,0 +1,37 @@
+/*** Project Meta ***/
+
+/* general - line 13 */
+
+/* header - line 39 */
+
+/* main content - line 138 */
+
+/* footer - line 866 */
+
+/** GENERAL **/
+
+/* Mobile View */
+
+.html {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 87.5%;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
