@@ -25,3 +25,12 @@
 .body {
   background-color: #f4f5f6;
 }
+
+.content {
+	position: relative;
+	background-color: white;
+	margin: 0 auto;
+	max-width: 1310px;
+	width: 100%;
+	height: 100%;
+}
