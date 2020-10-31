@@ -16,10 +16,6 @@
   border: 0;
 }
 
-i {
-  color: white;
-}
-
 .html {
 	/* font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif; */
   font-size: 87.5%;
@@ -31,24 +27,73 @@ i {
 }
 
 .content {
-	position: relative;
-	background-color: white;
-	margin: 0 auto;
 	max-width: 1310px;
-	width: 100%;
-	height: 100%;
 }
 
-.logo-img {
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Mobile View */
+
+.header1 {
+	background-color: #f72210;
+	padding: 0.8rem;
+}
+
+.nlogo {
+	width: 131.87px;
+}
+
+.location {
+	font-size: 0.8571rem;
+}
+
+.weather-icon {
+	width: 1.5714rem;
+}
+
+.register > *{
+	margin-left: 0.7143rem;
+}
+
+.login {
+	width: 2rem;
+}
+
+.fa-bars {
+	color: #fdc7c3;
+}
+
+.btn-warning {
+	padding: 0.2rem 0.4rem;
+	font-size: 0.8571rem;
+	/* font-family: "roboto condensed" "sans-serif"; */
+}
+
+/* main/content */
+
+.main {
+	padding: 1.4286rem 1.0714rem 0 1.0714rem;
+}
+
+/* .logo-img {
   width: 395px;
   height: auto;
 }
 
 .logo-img-2 {
   width: 132px;
-}
+} */
 
-.img-thumbnail {
+/* .img-thumbnail {
   width: 63px;
 }
 
@@ -56,8 +101,4 @@ i {
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-@media screen and (min-width: 992px) {
-
-}
+} */
