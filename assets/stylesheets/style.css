@@ -147,14 +147,7 @@
 }
 
 
-@media screen and (min-width: )
-
-
 @media screen and (min-width: 768px) {
-	.main {
-		/* padding: 1.4286rem 0 0 0; */
-	}
-
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
