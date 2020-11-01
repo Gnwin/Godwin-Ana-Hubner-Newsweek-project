@@ -128,10 +128,6 @@
 	width: 100%;
 }
 
-.form {
-	width: 90%;
-}
-
 .form-img {
 	background-color: #f72210;
 	width: 29px;
@@ -147,6 +143,14 @@
 }
 
 
+@media screen and (max-width: 767px){
+	.form {
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
@@ -154,6 +158,11 @@
 
 	.more-featured-stories {
 		width: 45%;
+	}
+
+	.form {
+		width: 90%;
+		/* margin: 0 auto; */
 	}
 }
 
