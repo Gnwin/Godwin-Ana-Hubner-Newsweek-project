@@ -98,10 +98,19 @@
   width: 63px;
 }
 
-.debate-section a {
+.debate a {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+}
+
+.vs {
+	top: -15px;
+	left: 47%;
+}
+
+.horizontal-rule {
+	padding-bottom: 2px;
 }
 
 .grid {
