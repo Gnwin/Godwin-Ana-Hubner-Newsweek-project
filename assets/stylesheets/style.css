@@ -110,7 +110,7 @@
 	font-size: 1.1rem;
 }
 
-.vs {
+.versus {
 	top: -15px;
 	left: 47%;
 }
@@ -126,6 +126,9 @@
 	grid-gap: 1.4286rem;
 }
 
+.card {
+	width: 100%;;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -139,11 +142,18 @@
 		/* grid-auto-rows: auto; */
 		/* grid-gap: 1.4286rem; */
 	}
-	
+
+	.more-featured-stories {
+		width: 33.33%;
+	}
 }
 
 @media screen and (min-width: 992px) {
 	.main {
 		padding: 1.4286rem 1.0714rem 0 1.0714rem;
+	}
+
+	.more-featured-stories {
+		width: 100%;
 	}
 }
