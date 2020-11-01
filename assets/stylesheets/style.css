@@ -98,10 +98,16 @@
   width: 63px;
 }
 
-.debate a {
+.debate a,
+.opinion a {
   color: black;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.debate-heading,
+.opinion-section {
+	font-size: 1.1rem;
 }
 
 .vs {
