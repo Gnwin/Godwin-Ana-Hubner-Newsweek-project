@@ -120,13 +120,30 @@
 
 .grid {
 	display: grid;
-	/* grid-template-columns: repeat(3, 1fr); */
 	grid-auto-rows: auto;
 	grid-gap: 1.4286rem;
 }
 
 .card {
-	width: 100%;;
+	width: 100%;
+}
+
+.form {
+	width: 90%;
+}
+
+.form-img {
+	background-color: #f72210;
+	width: 29px;
+	height: 29px;
+}
+
+.form .form-input[placeholder ='Email Address'] {
+	padding-left: 10px;
+}
+
+.form-button {
+	background-color: #f72210;
 }
 
 
@@ -151,5 +168,13 @@
 
 	.more-featured-stories {
 		width: 100%;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+	.form .form-title {
+		font-size: 1.1rem;
 	}
 }
