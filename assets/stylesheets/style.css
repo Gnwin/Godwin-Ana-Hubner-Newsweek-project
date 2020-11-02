@@ -17,9 +17,9 @@
 }
 
 .html {
-	/* font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif; */
+	font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 87.5%;
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .body {
@@ -142,6 +142,36 @@
 	background-color: #f72210;
 }
 
+.span-img {
+	width: 30px;
+}
+
+.img-category {
+	height: 250px;
+	width: auto;
+	max-width: 100%;
+}
+
+.img-category2 {
+	/* min-height: 270px; */
+	height: auto;
+	width: 100%;
+}
+
+.magazine-img {
+	min-height: 300px;
+	width: 100%;
+}
+
+.image-pick {
+	width: 100%;
+}
+
+.image-col {
+	width: 30%;
+	height: auto;
+}
+
 
 @media screen and (max-width: 767px){
 	.form {
@@ -149,7 +179,6 @@
 		max-width: 300px;
 		margin: 0 auto;
 	}
-}
 
 @media screen and (min-width: 768px) {
 	.grid {
