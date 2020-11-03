@@ -32,9 +32,9 @@
 - VS Code, Git & GitHub
 
 
-<!-- ## Live Demo
+## Live Demo
 
-[Live Demo Link](https://anapdh.github.io/TheNextWeb-Clone/) -->
+[Live Demo Link](https://gnwin.github.io/Godwin-Ana-Hubner-Newsweek-project/)
 
 
 ## Authors

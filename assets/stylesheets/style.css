@@ -98,6 +98,10 @@
   width: 63px;
 }
 
+.img-width {
+  width: 63px;
+}
+
 .debate a,
 .opinion a {
   color: black;
@@ -179,6 +183,8 @@
 		max-width: 300px;
 		margin: 0 auto;
 	}
+
+}
 
 @media screen and (min-width: 768px) {
 	.grid {
