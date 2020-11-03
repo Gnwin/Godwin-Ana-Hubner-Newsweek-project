@@ -94,10 +94,6 @@
   width: 132px;
 }
 
-.img-thumbnail {
-  width: 63px;
-}
-
 .img-width {
   width: 63px;
 }
@@ -125,7 +121,7 @@
 .grid {
 	display: grid;
 	grid-auto-rows: auto;
-	grid-gap: 1.4286rem;
+	gap: 1.4286rem;
 }
 
 .card {
@@ -145,6 +141,8 @@
 .form-button {
 	background-color: #f72210;
 }
+
+/* -------ANA------ */
 
 .span-img {
 	width: 30px;
