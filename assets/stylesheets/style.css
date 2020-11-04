@@ -177,14 +177,14 @@
 .list-pics {
 	float: right;
 	width: 68%;
+}
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 	.form {
 		width: 100%;
 		max-width: 300px;
 		margin: 0 auto;
 	}
-
 }
 
 @media screen and (min-width: 768px) {
@@ -203,6 +203,10 @@
 }
 
 @media screen and (min-width: 992px) {
+	.nlogo {
+		width: 390px;
+	}
+	
 	.main {
 		padding: 1.4286rem 1.0714rem 0 1.0714rem;
 	}
