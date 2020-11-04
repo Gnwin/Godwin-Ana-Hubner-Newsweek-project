@@ -48,6 +48,11 @@
 	padding: 0.8rem;
 }
 
+.header-bottom {
+	white-space: nowrap;
+	height: 36px;
+}
+
 .nlogo {
 	width: 131.87px;
 }
@@ -154,7 +159,7 @@
 }
 
 .img-category {
-	height: 250px;
+	min-height: 250px;
 	width: 100%;
 }
 
