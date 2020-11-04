@@ -148,20 +148,19 @@
 	width: 30px;
 }
 
+.magazine-img {
+	min-height: 300px;
+	width: 100%;
+}
+
 .img-category {
 	height: 250px;
-	width: auto;
-	max-width: 100%;
+	width: 100%;
 }
 
 .img-category2 {
 	/* min-height: 270px; */
 	height: auto;
-	width: 100%;
-}
-
-.magazine-img {
-	min-height: 300px;
 	width: 100%;
 }
 
