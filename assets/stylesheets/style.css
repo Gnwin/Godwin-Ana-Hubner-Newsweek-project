@@ -169,6 +169,10 @@
 	width: 100%;
 }
 
+.category > * {
+	font-size: 1rem;
+}
+
 .image-pick {
 	width: 100%;
 }
