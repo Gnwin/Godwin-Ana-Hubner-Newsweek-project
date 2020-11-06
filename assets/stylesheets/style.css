@@ -220,13 +220,8 @@ footer ul {
 	white-space: nowrap;
 }
 
-/* @media screen and (min-width: 481px) {
-	.img-col {
-		width: 60%;
-	}
-} */
-
 @media screen and (max-width: 767px) {
+	
 	.form {
 		width: 100%;
 		max-width: 300px;
@@ -283,6 +278,18 @@ footer ul {
 
 	.form {
 		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.header1 {
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.main {
+		padding-top: 70px;
 	}
 }
 
