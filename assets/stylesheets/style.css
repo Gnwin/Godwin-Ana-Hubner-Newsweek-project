@@ -51,10 +51,10 @@
 	z-index: 2; */
 }
 
-/* main {
+main {
 	position: relative;
-	top: 36px;
-} */
+	top: 45px;
+}
 
 .header-bottom {
 	height: 36px;
@@ -309,6 +309,7 @@ footer ul {
 	
 	.main {
 		padding: 1.4286rem 1.0714rem 0 1.0714rem;
+		top: 0;
 	}
 
 	.more-featured-stories {
