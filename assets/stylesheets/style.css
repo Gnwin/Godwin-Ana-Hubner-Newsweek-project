@@ -46,11 +46,19 @@
 .header1 {
 	background-color: #f72210;
 	padding: 0.8rem;
+	/* position: fixed;
+	width: 100%;
+	z-index: 2; */
 }
 
+/* main {
+	position: relative;
+	top: 36px;
+} */
+
 .header-bottom {
-	white-space: nowrap;
 	height: 36px;
+	white-space: nowrap;
 }
 
 .nlogo {
@@ -81,6 +89,10 @@
 	padding: 0.2rem 0.4rem;
 	font-size: 0.8571rem;
 	/* font-family: "roboto condensed" "sans-serif"; */
+}
+
+.form-inline input {
+	width: 60px;
 }
 
 /* main/content */
@@ -221,7 +233,12 @@ footer ul {
 }
 
 @media screen and (max-width: 767px) {
-	
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 2;
+	}
+
 	.form {
 		width: 100%;
 		max-width: 300px;
@@ -281,18 +298,6 @@ footer ul {
 	}
 }
 
-@media screen and (max-width: 991px) {
-	.header1 {
-		position: fixed;
-		z-index: 2;
-		width: 100%;
-	}
-
-	.main {
-		padding-top: 70px;
-	}
-}
-
 @media screen and (min-width: 992px) {
 	.nlogo {
 		width: 390px;
@@ -310,7 +315,8 @@ footer ul {
 		width: 100%;
 	}
 
-	.form .form-title {
+	.form,
+	.form-title {
 		font-size: 1.1rem;
 	}
 
