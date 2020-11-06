@@ -204,8 +204,8 @@
 
 .pic2 {
 	position: absolute;
-	top: 6px;
-	left: 25px;
+	top: 0.4286rem;
+	left: 1.7857rem;
 }
 
 .indepth-news {
@@ -214,7 +214,7 @@
 
 .starting {
 	background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
-	height: auto;
+	height: 188px;
 }
 
 footer {
@@ -259,6 +259,10 @@ footer ul {
 	.indepth-news {
 		padding: 0;
 	}
+
+	/* .starting {
+		height: 100%;
+	} */
 }
 
 @media screen and (min-width: 768px) {
@@ -270,8 +274,17 @@ footer ul {
 		width: 45%;
 	}
 
+	.starting,
+	.start-log {
+		width: 50%;
+	}
+
 	.form {
 		width: 90%;
+	}
+
+	.starting {
+		height: auto;
 	}
 }
 
@@ -294,5 +307,13 @@ footer ul {
 
 	.form .form-title {
 		font-size: 1.1rem;
+	}
+
+	.subscribe-newsletter .subscribe {
+		width: 60%;
+	}
+	
+	.subscribe-newsletter .newsletter {
+		width: 40%;
 	}
 }
