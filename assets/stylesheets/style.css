@@ -198,7 +198,7 @@
 
 .subscribe-pic {
 	position: relative;
-	width: 65%;
+	/* width: 65%; */
 	padding-left: 1rem;
 }
 
@@ -206,6 +206,10 @@
 	position: absolute;
 	top: 6px;
 	left: 25px;
+}
+
+.indepth-news {
+	padding-left: 5rem;
 }
 
 footer {
@@ -231,6 +235,7 @@ footer ul {
 
 	.indepth-news {
 		text-align: center;
+		padding-left: 0;
 	}
 
 	.subscribe-pic {
@@ -242,7 +247,7 @@ footer ul {
 		/* position: relative; */
 		width: 40%;
 		/* width: 100%; */
-		margin: 0 auto 0.8rem auto;
+		margin: 0 auto 1rem auto;
 		padding-left: 0;
 	}
 	
