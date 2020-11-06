@@ -182,13 +182,18 @@
 }
 
 .image-col {
-	width: 30%;
-	height: auto;
+	/* width: 27%; */
+	/* height: auto; */
+	/* width: 100%; */
+}
+
+.img-col {
+	width: 27%;
 }
 
 .list-pics {
-	float: right;
-	width: 68%;
+	/* float: right; */
+	/* width: 68%; */
 }
 
 footer {
@@ -197,6 +202,12 @@ footer {
 
 footer ul {
 	white-space: nowrap;
+}
+
+@media screen and (min-width: 481px) {
+	.img-col {
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 767px) {
