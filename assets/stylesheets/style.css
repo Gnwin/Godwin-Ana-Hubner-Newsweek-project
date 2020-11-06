@@ -196,6 +196,18 @@
 	/* width: 68%; */
 }
 
+.subscribe-pic {
+	position: relative;
+	width: 65%;
+	padding-left: 1rem;
+}
+
+.pic2 {
+	position: absolute;
+	top: 6px;
+	left: 25px;
+}
+
 footer {
 	background-color: white;
 }
@@ -215,6 +227,27 @@ footer ul {
 		width: 100%;
 		max-width: 300px;
 		margin: 0 auto;
+	}
+
+	.indepth-news {
+		text-align: center;
+	}
+
+	.subscribe-pic {
+		/* width: 100%; */
+		/* justify-self: center; */
+	}
+
+	.subscribe-pic {
+		/* position: relative; */
+		width: 40%;
+		/* width: 100%; */
+		margin: 0 auto 0.8rem auto;
+		padding-left: 0;
+	}
+	
+	.indepth-news {
+		padding: 0;
 	}
 }
 
