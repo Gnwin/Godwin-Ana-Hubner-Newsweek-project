@@ -154,17 +154,17 @@
 }
 
 .magazine-img {
-	min-height: 300px;
+	height: 90%;
 	width: 100%;
 }
 
 .img-category {
-	min-height: 250px;
+	min-height: 70%;
+	height: auto;
 	width: 100%;
 }
 
 .img-category2 {
-	/* min-height: 270px; */
 	height: auto;
 	width: 100%;
 }
