@@ -10,16 +10,16 @@
 
 /** GENERAL **/
 
-.reset * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 .html {
 	font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 87.5%;
 	scroll-behavior: smooth;
+}
+
+.reset * {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .body {
@@ -42,6 +42,8 @@
 }
 
 /* Mobile View */
+
+/* header */
 
 .header1 {
 	background-color: #f72210;
@@ -108,7 +110,7 @@
 }
 
 .img-width {
-  width: 63px;
+  width: 1.0714rem;
 }
 
 .debate a,
