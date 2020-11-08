@@ -12,18 +12,17 @@
 
 .html {
 	font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 87.5%;
-	/* scroll-behavior: smooth; */
+	font-size: 87.5%;
 }
 
 .reset * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 .body {
-  background-color: #f4f5f6;
+	background-color: #f4f5f6;
 }
 
 .content {
@@ -31,14 +30,14 @@
 }
 
 .offscreen {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
 
 /* Mobile View */
@@ -62,7 +61,7 @@
 	width: 1.5714rem;
 }
 
-.register > *{
+.register > * {
 	margin-left: 0.6rem;
 }
 
@@ -116,23 +115,23 @@
 }
 
 .logo-img {
-  width: 28.2143rem;
-  height: auto;
+	width: 28.2143rem;
+	height: auto;
 }
 
 .logo-img-2 {
-  width: 9.4286rem;
+	width: 9.4286rem;
 }
 
 .img-width {
-  width: 4.5rem;
+	width: 4.5rem;
 }
 
 .debate a,
 .opinion a {
-  color: black;
-  font-size: 1rem;
-  font-weight: bold;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 .font-size-heading {
@@ -149,8 +148,8 @@
 }
 
 .grid {
-	display: grid; display:-ms-grid;
-	grid-auto-rows: auto; display: -ms-grid-rows;
+	display: grid;
+	grid-auto-rows: auto;
 	gap: 1.4286rem;
 }
 
@@ -164,7 +163,7 @@
 	height: 2.0714rem;
 }
 
-.form .form-input[placeholder ='Email Address'] {
+.form .form-input[placeholder="Email Address"] {
 	padding-left: 0.7143rem;
 }
 
@@ -234,15 +233,16 @@
 }
 
 .starting {
-	background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+	background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+		center center / cover no-repeat;
 	height: 13.4285rem;
 }
 
-footer {
+.footer {
 	background-color: white;
 }
 
-footer ul {
+.footer-ul {
 	white-space: nowrap;
 }
 
@@ -251,7 +251,7 @@ footer ul {
 		width: 18.4286rem;
 		height: auto;
 	}
-	
+
 	.list-pics {
 		width: 40%;
 		font-size: 1.12rem;
@@ -268,6 +268,7 @@ footer ul {
 	.indepth-news {
 		text-align: center;
 		padding-left: 0;
+		padding: 0;
 	}
 
 	.subscribe-pic {
@@ -275,9 +276,8 @@ footer ul {
 		margin: 0 auto 1rem auto;
 		padding-left: 0;
 	}
-	
+
 	.indepth-news {
-		padding: 0;
 	}
 }
 
@@ -285,12 +285,12 @@ footer ul {
 	.header1 {
 		padding: 0.7rem;
 	}
-	
+
 	.btn-warning {
 		padding: 0.2rem 0.5rem;
-		font-size: 1.2rem
+		font-size: 1.2rem;
 	}
-	
+
 	.fa-bars {
 		/* color: #fdc7c3; */
 		font-size: 50%;
@@ -324,7 +324,7 @@ footer ul {
 	.nlogo {
 		width: 27.8571rem;
 	}
-	
+
 	.main {
 		padding: 1.4286rem 1.0714rem 0 1.0714rem;
 	}
@@ -345,7 +345,7 @@ footer ul {
 	.subscribe-newsletter .subscribe {
 		width: 60%;
 	}
-	
+
 	.subscribe-newsletter .newsletter {
 		width: 40%;
 	}
