@@ -13,7 +13,7 @@
 .html {
 	font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 87.5%;
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
 }
 
 .reset * {
@@ -149,8 +149,8 @@
 }
 
 .grid {
-	display: grid;
-	grid-auto-rows: auto;
+	display: grid; display:-ms-grid;
+	grid-auto-rows: auto; display: -ms-grid-rows;
 	gap: 1.4286rem;
 }
 
