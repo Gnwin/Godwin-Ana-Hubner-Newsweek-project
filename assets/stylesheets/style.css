@@ -28,6 +28,8 @@
 
 .content {
 	max-width: 1310px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .offscreen {
@@ -50,10 +52,10 @@
 	padding: 0.8rem;
 }
 
-.header-bottom {
+/* .header-bottom {
 	height: 36px;
 	white-space: nowrap;
-}
+} */
 
 .nlogo {
 	width: 131.87px;
@@ -90,8 +92,40 @@
 	width: 1.2857rem;
 }
 
-.form-inline input {
-	width: 60px;
+.nav-1 {
+	font-size: 15px;
+}
+
+.nav-ul {
+	width: 100%;
+	/* position: relative; */
+}
+
+.nav-li-search {
+	/* position: absolute; */
+	width: 10%;
+}
+
+.nav-1-search {
+	/* width: 40%; */
+}
+
+.nav-1-li {
+	padding-right: 0.7%;
+	margin-left: 0.7%;
+}
+
+.nav-li-search .form-inline[placeholder="Search"] {
+	font-size: 14px;
+}
+
+.input-form {
+	/* width: 50px; */
+	width: 30%;
+}
+
+.nav-1-img {
+	width: 60%;
 }
 
 /* main/content */
@@ -110,7 +144,7 @@
 }
 
 .img-width {
-  width: 1.0714rem;
+  width: 63px;
 }
 
 .debate a,
@@ -310,13 +344,24 @@ footer ul {
 }
 
 @media screen and (min-width: 992px) {
+	.nav-1 {
+		/* font-size: 17px; */
+	}
+	
+	.nav-ul {
+		/* width: 90%; */
+	}
+	
+	.nav-1-li{
+		/* padding: 0 1%; */
+	}
+
 	.nlogo {
 		width: 390px;
 	}
 	
 	.main {
 		padding: 1.4286rem 1.0714rem 0 1.0714rem;
-		top: 0;
 	}
 
 	.more-featured-stories {
