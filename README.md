@@ -8,12 +8,12 @@
 
 > This project consists of building a clone of the [Newsweek](https://www.newsweek.com/) website.
 
-<!-- 
+
 ![screenshot](./assets/images/SCREENSHOT1.png)
 ---
 ![screenshot](./assets/images/SCREENSHOT2.png)
 ---
-![screenshot](./assets/images/SCREENSHOT3.png) -->
+![screenshot](./assets/images/SCREENSHOT3.png)
 
 
 ## Features on the project:
