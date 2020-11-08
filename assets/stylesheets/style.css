@@ -50,13 +50,8 @@
 	padding: 0.8rem;
 }
 
-/* .header-bottom {
-	height: 36px;
-	white-space: nowrap;
-} */
-
 .nlogo {
-	width: 131.87px;
+	width: 9.4193rem;
 }
 
 .location {
@@ -72,7 +67,7 @@
 }
 
 .login-text {
-	font-size: 16px;
+	font-size: 1.1429rem;
 	vertical-align: middle;
 }
 
@@ -91,32 +86,27 @@
 }
 
 .nav-1 {
-	font-size: 14px;
+	font-size: 1rem;
 }
-
-.nav-ul {}
 
 .nav-li-search {
 	width: 14%;
-	/* width: 100px; */
 }
-
-.nav-1-search {}
 
 .nav-1-li {
 	padding-right: 1%;
 }
 
 .nav-li-search .form-inline[placeholder="Search"] {
-	font-size: 12px;
+	font-size: 0.8571rem;
 }
 
 .input-form {
-	width: 50px;
+	width: 3.5714rem;
 }
 
 .nav-1-img {
-	width: 25px;
+	width: 1.7857rem;
 }
 
 /* main/content */
@@ -126,16 +116,16 @@
 }
 
 .logo-img {
-  width: 395px;
+  width: 28.2143rem;
   height: auto;
 }
 
 .logo-img-2 {
-  width: 132px;
+  width: 9.4286rem;
 }
 
 .img-width {
-  width: 63px;
+  width: 4.5rem;
 }
 
 .debate a,
@@ -150,12 +140,12 @@
 }
 
 .versus {
-	top: -15px;
+	top: -1.0714rem;
 	left: 47%;
 }
 
 .horizontal-rule {
-	padding-bottom: 2px;
+	padding-bottom: 0.1428rem;
 }
 
 .grid {
@@ -170,19 +160,21 @@
 
 .form-img {
 	background-color: #f72210;
-	width: 29px;
-	height: 29px;
+	width: 2.0714rem;
+	height: 2.0714rem;
 }
 
 .form .form-input[placeholder ='Email Address'] {
-	padding-left: 10px;
+	padding-left: 0.7143rem;
 }
 
 .form-button {
 	background-color: #f72210;
 }
 
-/* -------ANA------ */
+.story-img {
+	margin-right: 1.0714rem;
+}
 
 .img-col {
 	width: 20%;
@@ -195,7 +187,7 @@
 }
 
 .span-img {
-	width: 30px;
+	width: 2.1429rem;
 }
 
 .magazine-img {
@@ -226,14 +218,8 @@
 	width: 100%;
 }
 
-/* .image-c
-	max-width: 70%;
-	height: auto;
-} */
-
 .subscribe-pic {
 	position: relative;
-	/* width: 65%; */
 	padding-left: 1rem;
 }
 
@@ -249,7 +235,7 @@
 
 .starting {
 	background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
-	height: 188px;
+	height: 13.4285rem;
 }
 
 footer {
@@ -262,7 +248,7 @@ footer ul {
 
 @media (min-width: 481px) and (max-width: 767px) {
 	.img-col {
-		width: 258px;
+		width: 18.4286rem;
 		height: auto;
 	}
 	
@@ -275,7 +261,7 @@ footer ul {
 @media screen and (max-width: 767px) {
 	.form {
 		width: 100%;
-		max-width: 300px;
+		max-width: 21.4286rem;
 		margin: 0 auto;
 	}
 
@@ -285,9 +271,7 @@ footer ul {
 	}
 
 	.subscribe-pic {
-		/* position: relative; */
 		width: 40%;
-		/* width: 100%; */
 		margin: 0 auto 1rem auto;
 		padding-left: 0;
 	}
@@ -295,26 +279,16 @@ footer ul {
 	.indepth-news {
 		padding: 0;
 	}
-
-	/* .starting {
-		height: 100%;
-	} */
 }
 
 @media screen and (min-width: 768px) {
 	.header1 {
-		/* background-color: #f72210; */
 		padding: 0.7rem;
-	}
-
-	.login {
-		/* width: 4rem; */
 	}
 	
 	.btn-warning {
 		padding: 0.2rem 0.5rem;
 		font-size: 1.2rem
-		/* background-color: #ffe400; */
 	}
 	
 	.fa-bars {
@@ -323,7 +297,7 @@ footer ul {
 	}
 
 	.menu-icon {
-		width: 30px;
+		width: 2.1429rem;
 	}
 
 	.grid {
@@ -334,16 +308,10 @@ footer ul {
 		width: 45%;
 	}
 
-	.img-col {
-		/* width: 125px;
-		width: 50%;
-		height: auto; */
-	}
-
 	.starting,
 	.start-log {
 		width: 50%;
-		min-height: 269px;
+		min-height: 19.2143rem;
 		height: auto;
 	}
 
@@ -353,20 +321,8 @@ footer ul {
 }
 
 @media screen and (min-width: 992px) {
-	.nav-1 {
-		/* font-size: 17px; */
-	}
-	
-	.nav-ul {
-		/* width: 90%; */
-	}
-	
-	.nav-1-li{
-		/* padding: 0 1%; */
-	}
-
 	.nlogo {
-		width: 390px;
+		width: 27.8571rem;
 	}
 	
 	.main {
@@ -393,10 +349,4 @@ footer ul {
 	.subscribe-newsletter .newsletter {
 		width: 40%;
 	}
-
-	.form-button {
-		/* background-color: #f72210; */
-		margin: 0;
-	}
-
 }
